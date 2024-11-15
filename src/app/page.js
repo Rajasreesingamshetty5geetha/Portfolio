@@ -91,7 +91,7 @@ const page = () => {
         />
       <header className='z-50 fixed  block w-full shadow-sm  backdrop-filter backdrop-blur-md bg-opacity-20 rounded-b-md py-0.25  border-slate-900/10 mx-auto '>
         <div className='relative flex items-start  '>
-          <img src='https://rajasreesingamshetty5geetha.github.io/Assests-web/favicon.jpg'
+          <img src='https://rajasreesingamshetty5geetha.github.io/Assests-web/favicon.jpg' alt = "logo"
           className='rounded-full w-14 h-14 overflow-hidden m-3 mx-12 shadow '/>
           <nav className='block text-white '>
             <ul className='flex gap-4 m-7 '>
@@ -113,8 +113,8 @@ const page = () => {
           </div>
           <h1 className='text-[45px] mt-16 text-white texts2 ' onMouseEnter={textEnter} onMouseLeave={textLeave} >Singamsetty Rajasree</h1>
           <div className='flex gap-1'>
-            <img src='https://rajasreesingamshetty5geetha.github.io/Assests-web/Group%201.svg' className='-mt-11   w-[200px] h-[200px]'/>
-            <img src='https://rajasreesingamshetty5geetha.github.io/Assests-web/Group%205%20(1).svg' className='-mt-32 -ml-32 w-[630px] h-[630px]'/>
+            <img src='https://rajasreesingamshetty5geetha.github.io/Assests-web/Group%201.svg' className='-mt-11   w-[200px] h-[200px]' alt="img1"/>
+            <img src='https://rajasreesingamshetty5geetha.github.io/Assests-web/Group%205%20(1).svg' className='-mt-32 -ml-32 w-[630px] h-[630px]' alt="img2"/>
           </div>
          
         </div>
