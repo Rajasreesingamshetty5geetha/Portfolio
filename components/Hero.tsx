@@ -35,10 +35,10 @@ const Hero = () => {
                   words="Hi! I'm Singamsetty Rajasree"
                   className="text-center text-[40px] md:text-5xl lg:text-6xl "
               />
-              <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
+              <p className="text-center md:tracking-wider mb-5 text-sm md:text-lg lg:text-2xl">
                   Web Developer | UI/UX designer
               </p>
-              <a href="#about">
+              <a href="#about" className='mb-28 md:mb-32'>
                 <MagicButton
                   title="About Me"
                   icon={<FaLocationArrow />}
