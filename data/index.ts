@@ -9,7 +9,7 @@ export const gridItems = [
   {
     id: 1,
     title: "About Me",
-    description: "",
+    description: "I recently got graduated from VIT, Vellore. I'm passionate about building scalable web solutions and have hands on experience in frontend                          Technologies.I learn quickly,adapt to new systems, and I'm comfortable diving into larger codebases.",
     className: "lg:col-span-3  md:col-span-5 md:row-span-3 lg:min-h-[60vh]",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-start md:justify-start lg:justify-start",
