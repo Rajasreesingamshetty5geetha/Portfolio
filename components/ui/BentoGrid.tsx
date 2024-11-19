@@ -81,13 +81,13 @@ export const BentoGridItem = ({
             />
           )}
         </div>
-        <div className={`absolute right-0 -bottom-5 ${id === 1 && 'w-full opacity-80'}`}
+        <div className={`absolute right-0 -bottom-5 ${id === 1 && 'w-full'}`}
         >
           {spareImg && (
             <img
             src={spareImg}
             alt = {spareImg}
-            className= {'object-cover,object-center w-full h-full'}
+            className= {'object-cover,object-center w-full h-full '}
           />
           )
           }
@@ -100,30 +100,16 @@ export const BentoGridItem = ({
         <div className={cn(
           titleClassName, 'group-hover/bento:translate-x-2 transition duration-200 relative md:h-full min-h-40 flex flex-col px-5 p-5 lg:p-10 '
         )}>
-           <div className="font-sans font-bold  text-lg lg:text-3xl max-w-96 z-10">
+          <div className="font-sans font-bold  text-lg lg:text-3xl max-w-96 z-10">
             {title}
           </div>
-          <div className="font-sans font-extralight text-[#c1c2d3] text-sm md:text-xs lg:text-base z-10 dark:text-neutral-200 mb-2 mt-2" >
+          <div className="font-sans inline-block font-extralight text-[#c1c2d3] text-sm md:text-xs lg:text-base z-10 dark:text-neutral-200 mb-2 mt-2 text-pretty backdrop-blur-xl rounded-lg text-justify  " >
             {description}
           </div>
-        
           {id === 3 && (
-            <div className="flex gap-1 lg:gap-6 w-fit absolute -right-1  lg:-right-2 "
+            <div className="flex gap-1 lg:gap-6 w-fit absolute -right-1  lg:-right-2 cursor-pointer "
+                 onClick={() => window.location.href = '#tech'}
             >
-              <a
-                href="#tech"
-                className="mt-20 mx-5 z-10 cursor-pointer sm:mt-16 sm:mx-4 md:mt-20 md:mx-5 lg:mt-32 
-                    lg:-mx-10
-                    xl:mt-32
-                    2xl:mt-32
-                    transition-all
-                    duration-300
-                    hover:scale-110
-                  "
-                              >
-                {<FaLocationArrow />}
-              </a>
-
               <div className="flex flex-col gap-5 md:gap-3 lg:gap-8  ">
                 {['HTML','CSS','JavaScript'].map
                 ((item)=>(
