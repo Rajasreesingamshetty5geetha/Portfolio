@@ -1,8 +1,11 @@
+import Footer from "@/components/Footer";
 import Grid from "@/components/Grid";
 import Hero from "@/components/Hero";
+import { ProjectsPage } from "@/components/Projects";
+import Techstack from "@/components/Techstack";
 import { FloatingNav } from "@/components/ui/FloatingNav";
-import { FaHome } from "react-icons/fa";
-import { FaPerson } from "react-icons/fa6";
+import { FaCode, FaHome, FaProjectDiagram } from "react-icons/fa";
+import {MdAccountCircle, MdContactPage, MdDock, MdOutlineDock} from 'react-icons/md';
 
 
 export default function Home() {
@@ -12,10 +15,13 @@ export default function Home() {
         <FloatingNav
           navItems={[
             {name:'Home',link:'/',icon:<FaHome/>
-            }]}
+            },{name:'About',link:'#about',icon:<MdAccountCircle/>},{name:'TechStack',link:'#tech',icon:<FaCode/>},{name:'Projects',link:'#Projects',icon:<MdOutlineDock/>},{name:'Contact',link:'#contact',icon:<MdContactPage/>}]}
         />
        <Hero/>
        <Grid/>
+       <Techstack/>
+       <ProjectsPage/>
+       <Footer/>
       </div>
     </main>
   );

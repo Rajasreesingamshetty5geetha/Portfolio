@@ -19,7 +19,7 @@ export const BentoGrid = ({
   return (
     <div
       className={cn(
-        "grid grid-cols-1 md:grid-cols-6 lg:grid-cols-5 md:grid-row-7 gap-8 lg:gap-8 mx-auto",
+        "grid grid-cols-1 md:grid-cols-6 lg:grid-cols-5 md:grid-row-7 gap-8 lg:gap-8 mx-auto mb-72",
         className
       )}
     >
@@ -49,7 +49,7 @@ export const BentoGridItem = ({
   titleClassName?:string;
   spareImg?:string;
 }) => {
-  const [download,setDownload] = useState(false);
+  const [download,setDownload] = useState(false); 
   const handleDown = () => {
     const pdfUrl = "https://drive.google.com/file/d/1goEKBj6wqa3DRS6M84nUDWQLf7B9Qq6Y/view?usp=sharing";
     const link = document.createElement("a");
@@ -60,12 +60,22 @@ export const BentoGridItem = ({
     document.body.removeChild(link);
     setDownload(true);
   };
+  const handleScroll = () => {
+    if (id === 3){
+     const element = document.getElementById('tech');
+     if (element) {
+       element.scrollIntoView({ behavior: 'smooth' });
+     }
+    }
+  };
+ 
   return (
     <div
       className={cn(
         "row-span-1 relative rounded-3xl overflow-hidden group/bento hover:shadow-xl transition duration-200 shadow-input dark:shadow-none  bg-white  justify-between flex flex-col space-y-4  border border-white/[0.2]",
         className
       )}
+      onClick={handleScroll}
       style={{
         background:'rgb(2,0,36)',
         backgroundColor:'linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)',
@@ -108,7 +118,7 @@ export const BentoGridItem = ({
           </div>
           {id === 3 && (
             <div className="flex gap-1 lg:gap-6 w-fit absolute -right-1  lg:-right-2 cursor-pointer "
-                 onClick={() => window.location.href = '#tech'}
+        
             >
               <div className="flex flex-col gap-5 md:gap-3 lg:gap-8  ">
                 {['HTML','CSS','JavaScript'].map
