@@ -47,7 +47,7 @@ const Techstack = () => {
       <div className="max-w-6xl mx-auto mt-10 ">
         {techData.map((category) => (
           <div key={category.category} className="mb-10">
-            <h3 className="text-lg font-semibold mb-4">{category.category}</h3>
+            <h2 className="text-lg font-semibold mb-4">{category.category}</h2>
             <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-6">
               {category.skills.map((skill) => (
                 <div
