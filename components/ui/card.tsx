@@ -41,9 +41,9 @@ export function ProjectCard({
             translateZ={20}
             as={Link}
             href={projectLink}
-            target="__blank"
+            target="_blank"
             className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
-            arial-label = "Visit Github"
+            aria-label = "Visit Github"
           >
             <FaGithub className="text-3xl"/>
           </CardItem>
