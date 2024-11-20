@@ -27,13 +27,13 @@ const Footer = ( ) => {
         </a>
       </div>
       <div className='flex mt-16 md:flex-row flex-col justify-between items-center'>
-        <h3 className='md:text-base text-sm md:font-normal font-light'>Made with <span className='text-red-500 text-xl'>❤︎</span> by <span className='text-purple relative inline-block'>
+        <h2 className='md:text-base text-sm md:font-normal font-light'>Made with <span className='text-red-500 text-xl'>❤︎</span> by <span className='text-purple relative inline-block'>
             Rajasree Singamsetty
             <div className='absolute -bottom-3 left-3 w-[100%] -ml-[10%]'>
               <div className='h-2 bg-gradient-to-r from-[#fe019a] to-[#3e51c9] transform [clip-path:polygon(0_0,100%_0,80%_50%,10%_50%)]'></div>
             </div>
           </span>
-        </h3>
+        </h2>
         <div className='flex items-center md:gap-3 gap-6 mt-6'>
             {socialMedia.map((profile) =>(
                 <div key = {profile.id} className='w-10 h-10 cursor-pointer flex justify-center items-center backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-xl border border-black-300'>
