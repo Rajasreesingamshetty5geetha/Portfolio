@@ -6,6 +6,7 @@ import Techstack from "@/components/Techstack";
 import { FloatingNav } from "@/components/ui/FloatingNav";
 import { FaCode, FaHome, FaProjectDiagram } from "react-icons/fa";
 import {MdAccountCircle, MdContactPage, MdDock, MdOutlineDock} from 'react-icons/md';
+import { Analytics } from "@vercel/analytics/react"
 
 
 export default function Home() {
