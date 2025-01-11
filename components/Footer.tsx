@@ -50,6 +50,7 @@ const Footer = ( ) => {
             ))}
         </div>
       </div>
+      <meta name="google-site-verification" content="eAGH2tkywnOKd5VNfrNANipC5RpxORlCxtOdZhfwS2A" />
     </footer>
   )
 }
