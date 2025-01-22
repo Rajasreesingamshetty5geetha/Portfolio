@@ -36,7 +36,7 @@ const Hero = () => {
                   className="text-center text-[40px] md:text-5xl lg:text-6xl "
               />
               <p className="text-center md:tracking-wider mb-5 text-sm md:text-lg lg:text-2xl">
-                  Web Developer | UI/UX designer
+                  Full Stack Developer | UI/UX designer
               </p>
               <a href="#about" className='mb-28 md:mb-32'>
                 <MagicButton
