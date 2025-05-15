@@ -51,7 +51,7 @@ export const BentoGridItem = ({
 }) => {
   const [download,setDownload] = useState(false); 
   const handleDown = () => {
-    const pdfUrl = "https://drive.google.com/drive/u/0/home";
+    const pdfUrl = "https://drive.google.com/file/d/1_e8DXtYMfXkWKhBji_qJAQhDKvc6SlVe/view?usp=sharing";
     const link = document.createElement("a");
     link.href = pdfUrl;
     link.download = "Resume.pdf"; 
