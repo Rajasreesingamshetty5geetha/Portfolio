@@ -93,3 +93,37 @@ export const socialMedia = [
     link:'https://www.instagram.com/_rajasreesingamshetty_5/',
   },
 ];
+export const workExperience = [
+  {
+    id: 1,
+    title: "Associate Backend Java Developer",
+    company: "TripGain",
+    duration: "Sep 2024 – Present",
+    desc: "Built scalable microservices for travel booking. Owned 16/25 production APIs, reduced flight search by 85% (13s → 2s), scaled to 20,000+ req/hr via Redis. Led a team of 4.",
+    thumbnail: "/exp1.svg",
+  },
+  {
+    id: 2,
+    title: "AI Intern",
+    company: "Smart Internz — Google Developers",
+    duration: "May 2023 – Jul 2023",
+    desc: "Built text-generation AI model with TensorFlow via Flask API. Led team of 4. Received Merit Certificate for AI-Web excellence.",
+    thumbnail: "/exp2.svg",
+  },
+  {
+    id: 3,
+    title: "UI/UX & Frontend Intern",
+    company: "Inside FPV",
+    duration: "Oct 2022 – Dec 2022",
+    desc: "Designed wireframes and prototypes. Built mobile-responsive features using React.js and Figma.",
+    thumbnail: "/exp3.svg",
+  },
+  {
+    id: 4,
+    title: "Web Developer Intern",
+    company: "Gtrix Technologies",
+    duration: "Jun 2022 – Aug 2022",
+    desc: "Developed e-commerce, portfolio, and business websites for multiple clients.",
+    thumbnail: "/exp4.svg",
+  },
+];
