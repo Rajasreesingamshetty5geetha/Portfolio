@@ -9,7 +9,7 @@ export const gridItems = [
   {
     id: 1,
     title: "About Me",
-    description: " I recently got graduated from VIT,Vellore. I'm passionate to explore various domains, and today, I am focused on building scalable web solutions and diving into the AI technologies.I have hands-on experience in frontend development. I am a quick learner, adapt seamlessly to new systems, and thrive when working on collaborative projects or large codebases. My enthusiasm for problem-solving and innovation drives me to constantly expand my skill set and deliver impactful solutions.",
+    description: "I'm a Java Backend Developer currently working at TripGain, building scalable microservices for a travel booking platform. I reduced flight search response time by 85% (13s → 2s) and achieved 1250x DB query optimization in production systems. I enjoy solving complex backend problems — from Redis caching strategies to query optimization and distributed system design. I also have frontend experience in React.js and Next.js, and I'm passionate about writing clean, high-performance code.",
     className: "lg:col-span-3  md:col-span-5 md:row-span-3 lg:min-h-[60vh]",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60 opacity-80",
     titleClassName: "justify-start md:justify-start lg:justify-start",
