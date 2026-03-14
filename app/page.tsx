@@ -3,7 +3,7 @@ import Grid from "@/components/Grid";
 import Hero from "@/components/Hero";
 import { ProjectsPage } from "@/components/Projects";
 import Techstack from "@/components/Techstack";
-import Experience from "@/components/Experience";
+import Experience from "@/components/ui/Experience";
 import { FloatingNav } from "@/components/ui/FloatingNav";
 import { FaCode, FaHome, FaProjectDiagram } from "react-icons/fa";
 import { MdAccountCircle, MdContactPage, MdOutlineDock, MdWork } from 'react-icons/md';
